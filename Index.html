@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Webpages, documents and structure</title>
+  </head>
+
+  <body>
+
+    <div class="title heading"> 
+      <h1>WEBPAGES,  DOCUMENTS & STRUCTURE</h1>
+    </div>
+
+    <div class="lesson">
+
+        <h2>Lessons</h2>
+        <ol>
+          <li><a href="#lesson1">Lesson 1: The Web and HTML (Hyper Text Markup Language)</a>
+            <ul>
+              <li><a href="#lesson1-1">What is the web is and how does it work?</a></li>
+              <li><a href="#lesson1-2">What are Tags and Elements?</a></li>
+            </ul>
+          </li>
+          <li><a href="#lesson2">Lesson 2: Creating a structured document with HTML</a>
+            <ul>
+              <li><a href="#lesson2-1">How does CSS work with HTML?</a></li>
+              <li><a href="#lesson2-2">What is the DOM?</a></li>
+
+            </ul>
+          </li>
+          <li><a href="#lesson3">Lesson 3: CSS</a>
+            <ul>
+              <li><a href="#lesson3-1">What is CSS?</a></li>
+            </ul>
+          </li>
+        </ol>
+    </div>
+
+
+    <div id="lesson1" class="lesson">
+
+      <div class="title">
+        <h2 class="lesson-heading">LESSON 1</h2>
+        <div class="underline lesson-title">The Web and HTML (Hyper Text Markup Language):	
+        </div>	
+      </div>
+
+      <div id="lesson1-1">
+      <h3>What is the web is and how does it work?</h3>
+
+      <p>
+        The web is a collection of <a href="http://en.wikipedia.org/wiki/HTML">HTML</a> documents that form the basis of almost every web page, HTML glues everything together. The major pieces of the web are
+      </p>
+        <ol>
+          <li> YOU (your computer with a running browser) </li> 
+          <li> Internet </li> 
+          <li> Servers</li>
+        </ol> 
+      <p>
+        Your computer sends http requests to the servers, the server then finds the appropriate HTML code and sends back to the browser (computer), your browser then interprets the HTML and displays this on the screen
+      </p>
+
+      <p>
+        HTML is the main type of document used on the web, you also get different types of files on the web such as plain text, images, videos and music.
+      </p>
+      <p>
+        HTML is made is made up of <b>CONTENT</b>(what you see);<b>MARKUP</b>(what the content looks like or how its arranged);<b>LINKS</b>(connect to other pages) and <b>VIDEOS/IMAGES</b>
+      </p>
+      </div>
+      <div id="lesson1-2">
+      <h3>What are Tags and Elements?</h3>
+
+          <em class="underline">HTML Tag</em> is always contained in angled brackets, most have an opening tag for eg <img src="popen.gif" alt="opening p tag" /> and a closing tag <img src="pclose.gif" alt="closing p tag" />, some tags do not require a closing tag eg <img src="break.gif" alt="break tag" /> these are called <em>void tags</em>.
+          <br>
+          <br>
+          <em class="underline">HTML Element</em> refers to everything within the set of opening and closing tabs eg <img src="popen.gif" alt="opening p tag" /> Content <img src="pclose.gif" alt="closing p tag" />. A property of an HTML element is an attribute for example... to set the href attribute of an anchor tab to udacity you would write <p> <img src="href.gif" alt="href example"/> </p> An attribute always has a value
+          
+      </div>
+    </div>
+
+    <div id="lesson2" class="lesson" >
+      <div class="title">
+        <h2 class="lesson-heading">LESSON 2</h2>
+        <div class="underline lesson-title">Creating a structured document with HTML:	
+        </div>	
+      </div>
+      <div id="lesson2-1">
+       <h3>How does CSS work with HTML?</h3>
+       <p>
+        HTML controls the structure of the page and CSS controls the style of the page (how it looks). HTML is a language and has syntax and rules. Basic word in HTML is tag. Browser turns the tags into elements that form tree like structure called the <b>DOM</b>
+       </p>
+
+       <p>
+        To define style you need to use the language CSS. CSS allows you to use specific syntax and rules to change how elements look on a page, eg: size, font, etc.
+      </p>
+
+         <p>
+          To create structured content is put content into boxes using "div" tags.
+         </p>
+      </div>
+      <div id="lesson2-2">
+         <h3>What is the DOM?</h3>
+
+         <p>
+          Dom stands for <em>document object model</em>. DOM is a standard convention for representing and interacting with elements in HTML. Basically a DOM tree is what the browser built from an HTML document.
+         </p>
+         
+        <div class="img">
+          <img src="pic_htmltree.gif" alt="Image of a Dom" />
+        </div>
+       
+      </div>
+    </div>
+
+    <div id="lesson3" class="lesson" >
+        <div class="title">
+          <h2 class="lesson-heading">LESSON 3</h2>
+          <div class="underline lesson-title">CSS:	
+          </div>	
+        </div>
+        
+        <div id="lesson3-1">
+          <h3>What is CSS?</h3>
+
+          <p>
+            CSS stands for <em>cascading style sheets</em>. CSS is code written to control style of HTML elements. CSS allows programmers to avoid repetition which is important for avoiding errors and consistency.
+          </p>
+
+          <p>
+             <b>For example:</b> If you wanted to write CSS that makes all <em>h1</em> elements have a black background and white text you would use the following: 
+          </p> 
+
+          <p>
+            <img src="css1.gif" alt="opening p tag" /> 
+          </p>
+
+          <p>  
+            In this example h1 is a selector and says to the browser , "I want to apply the rules I am about to tell you to every <em>h1</em> element. Everything between the curly braces will be interpreted as a rule that should be applied to every <em>h1</em> element.
+          </p>
+
+          <p>
+            In the example above we set background color of every h1 to black. If you only wanted to add the style to certain h1 elements you would use a class.
+          </p>
+          
+          <p>
+            <b>For example:</b> 
+          </p>
+
+          <p>
+            <b>HTML</b> -  <img src="html1.gif" alt="opening p tag" /><img src="html1.gif" alt="opening p tag" /> 
+          </p> 
+          
+          <p>
+            <b>CSS</b> - <img src="css2.gif" alt="opening p tag" /> 
+          </p>
+          
+          <p>
+            The use of classes such as <img src="css3.gif" alt="opening p tag" />on elements help avoid repetition and follow inheritance principles by only specifying the background color to black once.
+          </p>
+
+        </div>
+    </div>
+    
+   </body>
+ </html>
