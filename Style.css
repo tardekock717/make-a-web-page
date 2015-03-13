@@ -1,0 +1,47 @@
+.lesson{background-color:#FFD1E0;	
+	color:black;
+  padding:10px;
+  margin-left:5px;
+  border-radius:18px;
+  border:1px black;
+  margin-left:5px;
+  margin-bottom: 35px;
+  
+}
+.underline{text-decoration:underline;
+
+}
+
+.title{text-align: center;}
+
+body{
+  background-color:#cc99ff;
+    padding:20px;
+border-radius:10px;
+}
+    
+.heading{color:#2C3034;
+  font-family:arial;
+  font-size:25px;
+}
+
+.lesson-heading{ 
+  background-color:white;
+  padding:20px;
+  border-radius:10px;}
+
+.lesson-title{
+  padding-bottom:20px;
+  font-size:24px;
+  color:purple;
+  
+}
+  
+.html {
+  font-family: Courier;
+  color : black;
+  font-weight: bold;
+  padding-left:  4px;
+  padding-right: 4px;
+  background-color: white
+}
